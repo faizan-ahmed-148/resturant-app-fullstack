@@ -1,0 +1,124 @@
+.aboutSection {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: rgb(233, 233, 233);
+  
+  }
+  
+  .aboutSectionContainer {
+   align-items: center;
+    background-color: #fff;
+    /* box-shadow: 10px 10px 10px 10px rgba(0,0,0,.192); */
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    left: 50%;
+    position: fixed;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100vw;
+  }
+  
+  .aboutSectionContainer > h1 {
+    font: 400 3vmax "Roboto";
+    color: rgb(214, 0, 0);
+    margin: 2vmax;
+  }
+  
+  .aboutSectionContainer > div {
+    display: flex;
+    width: 100%;
+  }
+  
+  .aboutSectionContainer > div > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+  }
+  
+  .aboutSectionContainer > div > div > p {
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 1vmax "Roboto";
+  }
+  
+  .aboutSectionContainer > div > div > button {
+    margin: 1vmax 0;
+  }
+  
+  .aboutSectionContainer > div > div > span {
+    font: 100 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    width: 80%;
+  }
+  
+  .aboutSectionContainer2 {
+    border-left: 1px solid rgba(0, 0, 0, 0.116);
+  }
+  
+  .aboutSectionContainer2 > h2 {
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 2vmax "Roboto";
+    margin: 2vmax;
+  }
+  
+  .aboutSectionContainer2 > a > svg {
+    font-size: 4vmax;
+  }
+  
+  .youtubeSvgIcon {
+    color: rgb(0, 0, 0);
+  }
+  
+  .instagramSvgIcon {
+    color: rgb(81, 148, 202);
+  }
+  .FacebookIconSvgIcon{
+    color: rgb(53, 132, 179);
+  }
+  .LinkedInIconSvgIcon{
+    color: rgb(63, 110, 182);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .aboutSectionContainer > div {
+      display: block;
+    }
+    .aboutSectionContainer {
+    
+       top: 52%;
+      
+     }
+     
+    .aboutSectionContainer > h1 {
+      font: 400 5vmax "Roboto";
+      margin: 3vmax;
+    }
+  
+    .aboutSectionContainer > div > div > p {
+      font: 100 2vmax "Roboto";
+    }
+  
+    .aboutSectionContainer > div > div > span {
+      font: 100 1.4vmax "Roboto";
+      width: 70%;
+    }
+  
+    .aboutSectionContainer2 {
+      border-left: none;
+    }
+  
+    .aboutSectionContainer2 > h2 {
+      font: 100 3vmax "Roboto";
+      margin: 2vmax;
+    }
+  
+    .aboutSectionContainer2 > a > svg {
+      font-size: 6vmax;
+      margin: 1vmax;
+    }
+  }

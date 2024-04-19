@@ -1,0 +1,74 @@
+.contact {
+ 
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .contactContainer {
+ 
+    height: 80%;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    border-radius: 50px;
+    top: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .contactContainerForm {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+    width: 60%;
+  }
+  .contactContainerForm > h4 {
+    text-align: center;
+    color: rgb(214, 0, 0);
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .contactContainerForm > input,
+  .contactContainerForm > textarea {
+    padding: 1vmax;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: "Roboto";
+    border: 1px solid rgba(0, 0, 0, 0.205);
+
+ 
+  }
+  .contactContainerForm > button {
+    background-color: rgb(214, 0, 0);
+  
+ 
+  }
+  .contactContainerForm > button:hover {
+    background-color: rgb(214, 0, 0);
+  }
+  
+
+  
+ 
+
+  @media screen and (max-width: 600px) {
+    .contactContainer {
+        top: 15%;
+      width: 80%;
+    }
+    .contactContainerForm {
+     
+      width: 90%;
+    }
+  }
